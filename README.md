@@ -2,6 +2,8 @@
 
 [Mike Mathew](https://github.com/m2mathew) ([@drumsensei](https://twitter.com/drumsensei)) presenting a workshop on "React 101" for the assembled Dallas area devs and friends. 🤓
 
+Slides from the talk are [here](http://drumsensei.com/warehouse/React-101_DevMtn_May2019.pdf).
+
 ## To Run
 
 1. Clone this repo.
