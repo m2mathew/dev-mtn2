@@ -1,25 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello';
+// import HelloHook from './HelloHook';
 
 function App() {
+  // JSX - createElement takes the element, props, and children as arguments
+  // return React.createElement('h1', { style: { color: 'hotpink' }}, 'hello, mom!')
+
+  // We can pass in props here to make them available to the component being rendered
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Hello name="ReactJS Dallas" date={new Date().toDateString()} />
+    // <HelloHook name="ReactJS Dallas" date={new Date().toDateString()} />
   );
 }
 
